@@ -3,7 +3,7 @@ p {
 }
 
 h1 {
-    background-color: rgb(101, 41, 156);
+    background-color: rgb(96, 18, 168);
 }
 
 .chocol {
@@ -12,7 +12,7 @@ h1 {
 
 #bom {
     text-align: center;
-    background-color: rgb(214, 60, 60);
+    background-color: rgb(194, 25, 25);
 }
   
 .imagem-guts {
@@ -30,3 +30,23 @@ h1 {
     height: 470px;
     border-radius: 40px;
    }
+
+   .flex-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+
+   }
+
+    .flex-container {
+        background-color: rgb(180, 66, 46);
+        height: 400px;
+        width: 600px;
+        line-height: 50px;
+
+    }
+
+    .linha {
+        flex-direction: row;
+    }

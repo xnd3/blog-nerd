@@ -3,50 +3,42 @@ p {
 }
 
 h1 {
-    background-color: rgb(96, 18, 168);
+    background-color: rgba(208, 198, 216, 0.473);
+    color: rgb(219, 26, 26);
 }
 
-.chocol {
-    color: rgb(26, 16, 16);
+body {
+    background-image: url("https://wallpapers.com/images/hd/marvel-and-dc-superheroes-in-cinema-d1li2g7lnzl41y7r.jpg");
+    background-repeat: no-repeat;
 }
 
-#bom {
+#noticia {
     text-align: center;
-    background-color: rgb(194, 25, 25);
+    background-color: rgba(208, 198, 216, 0.473);
+    color: rgb(219, 26, 26);
 }
-  
-.imagem-guts {
-    width: 400px;
-    height: 600px;
-    border-radius: 40px
-   }
-   .imagem-zodd {
-    width: 400px;
-    height: 600px;
-    border-radius: 40px;
-   }
-   .imagem-era-dourada {
-    width: 370px;
-    height: 470px;
-    border-radius: 40px;
-   }
+#home {
+    text-align: left;
+    background-color: rgba(208, 198, 216, 0.473);
+    color: rgb(219, 26, 26);
+}
+ 
+#chat {
+    text-align: center;
+    background-color:  rgba(208, 198, 216, 0.473);
+    color: rgb(219, 26, 26);
+}
 
-   .flex-container {
-    margin: 0;
-    padding: 0;
+#pesquisa {
+    background-color:  rgba(208, 198, 216, 0.473);
+    color: rgb(219, 26, 26);
+}
+
+.flex-container {
     display: flex;
-    list-style: none;
+}
 
-   }
-
-    .flex-container {
-        background-color: rgb(180, 66, 46);
-        height: 400px;
-        width: 600px;
-        line-height: 50px;
-
-    }
-
-    .linha {
-        flex-direction: row;
-    }
+.linha {
+    flex-direction: row;
+    justify-content: space-around;
+}
